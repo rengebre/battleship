@@ -1,0 +1,23 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "A web based Battleship game to be played single or multiplayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rengebre/battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rengebre/battleship/issues"
+  },
+  "homepage": "https://github.com/rengebre/battleship#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
