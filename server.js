@@ -9,7 +9,16 @@ app.use(express.static('public'));
 
 
 app.get("/", (req, res) => {
+  // console.log(req.body);
   res.render('homepage');
+});
+
+app.get('/new-game', (req, res) => {
+  res.render('newGame');
+});
+
+app.get('/scores', (req, res) => {
+  res.render('leaderboard');
 });
 
 app.listen(port, () => {
